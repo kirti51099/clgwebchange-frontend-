@@ -44,7 +44,7 @@ async function handleSubmit(e) {
 
   try {
     // Use full backend URL or change to '/api/contact' if you use Vite proxy (see next section)
-    const url = "https://create-backend-theta.vercel.app//api/contact";
+    const url = "http://clgsite-backend.vercel.app//api/contact";
     const res = await fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },

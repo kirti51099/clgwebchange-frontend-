@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'https://create-backend-theta.vercel.app/'
+      '/api': 'http://clgsite-backend.vercel.app'
+      //http://localhost:5000
     }
   }
 })
