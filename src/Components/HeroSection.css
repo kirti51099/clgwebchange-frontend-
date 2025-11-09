@@ -1,0 +1,18 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 60px 30px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+
+.hero-text h1 { color: #4169e1; font-size: 3rem; }
+.hero-text p { margin: 16px 0; font-size: 1.2rem; }
+.hero-text button {
+  background-color: #4169e1; color: white; border:none; padding:12px 24px; border-radius:6px;
+}
+.hero-text button:hover { background-color: #27408b; }
+.hero-img img { width: 500px; border-radius: 12px; }
+@media(max-width:900px){ .hero{flex-direction:column;text-align:center}.hero-img img{width:80%;margin-top:20px} }
